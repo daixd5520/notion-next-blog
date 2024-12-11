@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'Stimw Blog',
-  author: 'Stimw',
-  email: 'stimwblog@gmail.com',
+  title: 'DXD Blog',
+  author: 'DXD',
+  email: 'daixd5520@gmail.com',
   // ↓ THIS BLOG LINK, NOT YOUR SOCIAL LINK ↓
-  link: 'https://notion-next-blog-olive.vercel.app', // do not end with '/'
+  link: 'https://daixd.xyz', // do not end with '/'
   description: 'This gonna be an awesome website.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
@@ -11,7 +11,7 @@ const BLOG = {
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy this blog in a folder
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2023, // If leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: true,
   showSummary: false,
