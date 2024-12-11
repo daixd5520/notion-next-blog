@@ -8,11 +8,11 @@ const BLOG = {
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif'] - !!deprecated, do not modify this
-  lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
+  lightBackground: '#fffefc', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy this blog in a folder
   since: 2023, // If leave this empty, current year will be used.
-  postsPerPage: 7,
+  postsPerPage: 10,
   sortByDate: true,
   showSummary: false,
   showAbout: true,
@@ -20,7 +20,7 @@ const BLOG = {
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   prismjs_cdn: '', // default is cloudflare, if slow you can set 'https://npm.elemecdn.com/prismjs@1.29.0/components/'
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/Pokemon',
+  socialLink: 'https://twitter.com/DXindi14700',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
@@ -41,23 +41,23 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
       admin: [],
       clientID: '',
       clientSecret: '',
-      distractionFreeMode: false,
+      distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: '',
+      repo: ''
     },
     cusdisConfig: {
-      appId: '', // data-app-id
+      appId: 'f147a897-6d7e-4cfb-b577-2b5eb3be9372', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
-      scriptSrc: 'https://cusdis.com/js/cusdis.es.js', // change this if you're using self-hosted version
-    },
+      scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
+    }
   },
   isProd: process.env.VERCEL_ENV === 'production', // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 };
