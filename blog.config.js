@@ -12,8 +12,8 @@ const BLOG = {
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy this blog in a folder
   since: 2023, // If leave this empty, current year will be used.
-  postsPerPage: 10,
-  sortByDate: true,
+  postsPerPage: 7,
+  sortByDate: false,
   showSummary: false,
   showAbout: true,
   showArchive: true,
@@ -56,8 +56,8 @@ const BLOG = {
     cusdisConfig: {
       appId: '', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
-      scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
-    }
+      scriptSrc: 'https://cusdis.com/js/cusdis.es.js', // change this if you're using self-hosted version
+    },
   },
   isProd: process.env.VERCEL_ENV === 'production', // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 };
