@@ -9,7 +9,7 @@ const BLOG = {
   appearance: 'light', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif'] - !!deprecated, do not modify this
   lightBackground: '#fffefc', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#18181B', // use hex value, don't forget '#'
+  darkBackground: '#1D1E20', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy this blog in a folder
   since: 2023, // If leave this empty, current year will be used.
   postsPerPage: 7,
